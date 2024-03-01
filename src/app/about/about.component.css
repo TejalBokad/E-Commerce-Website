@@ -1,0 +1,204 @@
+.heading {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/*image width and margin from the left side of the screen*/
+.img-fluid {
+    width: 500px;
+    margin-left: 80px;
+}
+
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-check {
+    color: #42b750;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Text distance from the image*/
+.about-img {
+    flex: 0 0 auto;
+    margin-right: 40px;
+}
+
+.information {
+
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+
+/* --------------------------Read more button ----------------------------------*/
+
+.btn.btn-primary,
+.btn.btn-secondary,
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-secondary:hover {
+    color: #FFFFFF;
+}
+
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.btn-primary {
+    background-color: #3CB815;
+    border-color: #3CB815;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+
+/* -----------------------Signup button -------------------------------*/
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ps-4 {
+    padding-left: 1.5rem !important;
+}
+
+.pe-5 {
+    padding-right: 3rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.form-control {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+
+
+input {
+
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+
+}
+
+
+/*----------------------- underline -------------------------------*/
+.section-header {
+    position: relative;
+    margin-left: 200px;
+
+}
+
+.underline-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.underline {
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.underline-blue {
+    background-color: #F65005;
+    width: 140px;
+    bottom: -20px;
+}
+
+.underline-green {
+    background-color: #3CB815;
+    width: 100px;
+
+}
+
+/*--------------------------- underline ends ----------------------------------*/

@@ -1,0 +1,192 @@
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 4px;
+    padding-bottom: -50px;
+}
+
+/* --------------underline -----------------*/
+.pro .section-header {
+    position: relative;
+    margin-left: 130px;
+}
+
+.pro .underline-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pro .underline {
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.pro .underline-blue {
+    background-color: #F65005;
+    width: 60%;
+    bottom: -15px;
+}
+
+.pro .underline-green {
+    background-color: #3CB815;
+    width: 50%;
+}
+
+/*------------ Hover -------------------*/
+
+
+.h-48:hover {
+
+    transform: scale(1.1);
+}
+
+.h-48 {
+    transition: .5s;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.p-4:hover {
+    transform: scale(1.1);
+}
+
+.p-4 {
+    transition: .5s;
+
+}
+
+
+/*--------------------- more button --------------------*/
+.custom-btn {
+    background-color: #3CB815;
+    border-color: #3CB815;
+    border-radius: 50rem;
+    position: relative;
+    top: -40px;
+
+}
+
+.custom-btn:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: white;
+    /* Change text color on hover if needed */
+}
+
+/* ---------------------Signup button -------------------------*/
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ps-4 {
+    padding-left: 1.5rem !important;
+}
+
+.pe-5 {
+    padding-right: 3rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.form-control {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+
+
+input {
+
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+
+}
+
+
+/* ---------------underline starts --------------*/
+/* underline */
+.section-header {
+    position: relative;
+    margin-left: 200px;
+
+}
+
+.underline-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.underline {
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.underline-blue {
+    background-color: #F65005;
+    width: 140px;
+    bottom: -20px;
+}
+
+.underline-green {
+    background-color: #3CB815;
+    width: 100px;
+
+
+}
+
+
+/* underline ends */

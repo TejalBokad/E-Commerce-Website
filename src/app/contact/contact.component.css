@@ -1,0 +1,201 @@
+.container {
+    left: 80%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .col-md-5,
+.contact .col-md-7 {
+    flex: 0 0 50%;
+}
+
+@media (max-width: 767px) {
+
+    .contact .col-md-5,
+    .contact .col-md-7 {
+        flex: 0 0 100%;
+    }
+}
+
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.contact .heading h2 span {
+    color: #ff9100;
+}
+
+.contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #ff9100;
+    color: #ffffff;
+}
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+.contact .content .info {
+    margin-top: 30px;
+}
+
+.contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+}
+
+.contact .content .info h4 {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.col-md-5 {
+    padding-left: 10%;
+}
+
+.form-group .form-control {
+    width: 95%;
+}
+
+.col-sm-12 .form-control {
+    width: 95%;
+}
+
+.col-sm-6 .form-control {
+    width: 325px;
+}
+
+button {
+
+    justify-content: center;
+
+}
+
+
+
+
+/*----------------------- Footer Signup button ---------------------------*/
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ps-4 {
+    padding-left: 1.5rem !important;
+}
+
+.pe-5 {
+    padding-right: 3rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.form-control {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+
+
+input {
+
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+
+}
